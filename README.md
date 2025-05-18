@@ -32,6 +32,10 @@ Este proyecto es una herramienta interactiva para visualizar el funcionamiento d
 
 ```
 
+## Enlace a la página
+
+Puedes probar la aplicación en el siguiente enlace: [HuffmanCoding page](https://HuffmanCoding.github.io)
+
 ## Créditos
 
 Este proyecto fue desarrollado como una herramienta educativa para entender el algoritmo de Huffman.
