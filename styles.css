@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: #e0ffe0;
+    padding: 2rem;
+  }
+
+  input, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.output {
+    margin-top: 1.5rem;
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.alert {
+    color: rgb(170, 67, 67);
+}
+
+.success {
+    color: rgb(67, 170, 67);
+}

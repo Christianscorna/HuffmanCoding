@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Visualizador de Huffman</title>
+</head>
+<body>
+    <h1>Visualizador de Huffman</h1>
+    <p>
+        Para comenzar, ingresa una cadena de texto. Veremos como se genera un código de huffman paso a paso. 
+    </p>
+    <input type="text" class="container mt-4" id="imputTexto" placeholder="Escribe una cadena">
+    <button onclick="procesar()">procesar cadena</button>
+
+    <!--Lugar para la salida-->
+    <div class="output" id="output"></div>
+</body>
+<script src="logic.js"></script>
+</html>
