@@ -19,6 +19,7 @@ function procesar() {
                 Debe ingresar una cadena válida por favor.
             </p>
         `;
+        document.querySelector("#output").classList.add("ver");
         return;
     }
 
