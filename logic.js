@@ -28,6 +28,7 @@ function procesar() {
             procesando la cadena: <strong>${mensaje}</strong>
         </p>
     `;
+    document.querySelector("#output").classList.add("ver");
 
     //Calcular frecuencias
     let frecuencias = getFrecuencias(mensaje);
