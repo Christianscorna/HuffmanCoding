@@ -29,3 +29,7 @@ input, button {
 .success {
     color: rgb(67, 170, 67);
 }
+
+.word_wrap {
+    word-wrap: break-word;
+}

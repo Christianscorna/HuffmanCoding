@@ -24,7 +24,7 @@ function procesar() {
     }
 
     salida.innerHTML = `
-        <p>
+        <p class="word_wrap">
             procesando la cadena: <strong>${mensaje}</strong>
         </p>
     `;
@@ -163,7 +163,7 @@ function mostrarMensajeCodificado(mensaje, codigos, salida) {
     }
     salida.innerHTML += `
         <h3>Mensaje codificado</h3>
-        <p>
+        <p class="word_wrap">
             <code>${codificacion}</code>
         </p>
     `;
